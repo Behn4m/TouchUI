@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TouchUIv1.1", "TouchUIv1.1\TouchUIv1.1.cproj", "{08ECD23C-3693-4935-8C2F-83BB4A9819D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08ECD23C-3693-4935-8C2F-83BB4A9819D9}.Debug|AVR.ActiveCfg = Debug|AVR
+		{08ECD23C-3693-4935-8C2F-83BB4A9819D9}.Debug|AVR.Build.0 = Debug|AVR
+		{08ECD23C-3693-4935-8C2F-83BB4A9819D9}.Release|AVR.ActiveCfg = Release|AVR
+		{08ECD23C-3693-4935-8C2F-83BB4A9819D9}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

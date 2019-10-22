@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.2</ProjectVersion>
+    <ProjectGuid>{08ecd23c-3693-4935-8c2f-83bb4a9819d9}</ProjectGuid>
+    <avrdevice>ATmega88PA</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <AssemblyName>TouchUIv1.1</AssemblyName>
+    <Name>TouchUIv1.1</Name>
+    <RootNamespace>TouchUIv1.1</RootNamespace>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfFrameworkConfig>
+      <framework-data>
+  <options>
+    <option id="libavr4g1-4qt-k-1rs.a" value="Add" config="" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <option id="qtlib.generic.tmx.qt.avr4g1" value="Add" config="" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+  </options>
+  <configurations />
+  <files>
+    <file path="src/QTouch/libavr4g1-4qt-k-1rs.a" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\lib\gcc\libavr4g1-4qt-k-1rs.a" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/BitBangSPI_Master.c" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\examples\avr4g1_qt_example\BitBangSPI_Master.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/QDebug.c" framework="" version="5.6" source="thirdparty\qtouch\qdebug\QDebug.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/eeprom_access.c" framework="" version="5.6" source="thirdparty\qtouch\qdebug\eeprom_access.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/QDebugTransport.c" framework="" version="5.6" source="thirdparty\qtouch\qdebug\QDebugTransport.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/qt_asm_tiny_mega.S" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\common\qt_asm_tiny_mega.S" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/license.txt" framework="" version="5.6" source="thirdparty\qtouch\license.txt" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/BitBangSPI_Master.h" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\examples\avr4g1_qt_example\BitBangSPI_Master.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/eeprom_access.h" framework="" version="5.6" source="thirdparty\qtouch\qdebug\eeprom_access.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/qt_asm_avr.h" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\common\qt_asm_avr.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/touch_api.h" framework="" version="5.6" source="thirdparty\qtouch\generic\include\touch_api.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/QDebugSettings.h" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\examples\avr4g1_qt_example\QDebugSettings.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/QDebug.h" framework="" version="5.6" source="thirdparty\qtouch\qdebug\QDebug.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/QDebugTransport.h" framework="" version="5.6" source="thirdparty\qtouch\qdebug\QDebugTransport.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/init_mcu_atmega88.c" framework="" version="5.6" source="thirdparty\qtouch\templates_init\init_mcu_atmega88.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/TWI_Master.c" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\examples\avr4g1_qt_example\TWI_Master.c" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+    <file path="src/QTouch/TWI_Master.h" framework="" version="5.6" source="thirdparty\qtouch\generic\avr8\qtouch\examples\avr4g1_qt_example\TWI_Master.h" changed="False" content-id="f23f3c19-f15d-491d-bc53-a449fb4910a2" />
+  </files>
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.10.1" />
+    <content-extension eid="f23f3c19-f15d-491d-bc53-a449fb4910a2" uuidref="f23f3c19-f15d-491d-bc53-a449fb4910a2" version="5.6" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <preserveEEPROM>true</preserveEEPROM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>NDEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+            <Value>..</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libavr4g1-4qt-k-1rs</Value>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.linker.libraries.LibrarySearchPaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.LibrarySearchPaths>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+            <Value>..</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>DEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+            <Value>..</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libavr4g1-4qt-k-1rs</Value>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.linker.libraries.LibrarySearchPaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.LibrarySearchPaths>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>../src/QTouch</Value>
+            <Value>..</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+        <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+      </AvrGcc>
+    </ToolchainSettings>
+    <OutputFileName>TouchUIv1.1</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputType>Executable</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="src\QTouch\libavr4g1-4qt-k-1rs.a">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\license.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="TouchUIv1.1.qtdgn">
+      <SubType>compile</SubType>
+      <Generator>QTouchFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\BitBangSPI_Master.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\init_mcu_atmega88.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\TWI_Master.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\QTouch\TWI_Master.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\QDebugTransport.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\QDebug.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\QDebugSettings.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\touch_api.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\qt_asm_avr.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\eeprom_access.h">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\QTouch\BitBangSPI_Master.h">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\QTouch\eeprom_access.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\QDebug.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\QDebugTransport.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\QTouch\qt_asm_tiny_mega.S">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\asf.h">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="touch.c">
+      <SubType>compile</SubType>
+      <DependentUpon>TouchUIv1.1.qtdgn</DependentUpon>
+    </Compile>
+    <Compile Include="touch.h">
+      <SubType>compile</SubType>
+      <DependentUpon>TouchUIv1.1.qtdgn</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\QTouch\" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

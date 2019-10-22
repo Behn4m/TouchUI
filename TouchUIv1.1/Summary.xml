@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                             <?xml-stylesheet type='text/xsl' href='Summary.xslt'?><SUMMARY>
+  <DeviceInformation>
+    <DeviceName>ATmega88PA</DeviceName>
+    <DeviceVariant>28/32</DeviceVariant>
+    <Technology>Self Capacitance</Technology>
+  </DeviceInformation>
+  <SensorInformation TotalSensors="1">
+    <NumberOfButtons>0</NumberOfButtons>
+    <NumberOfWheels>1</NumberOfWheels>
+    <NumberOfSliders>0</NumberOfSliders>
+  </SensorInformation>
+  <ChannelInformation>
+    <TotalChannelsConsumed>3</TotalChannelsConsumed>
+  </ChannelInformation>
+  <PinConfiguration>
+    <AvailablePorts>B,C,D</AvailablePorts>
+    <TotalPinsUsed>6</TotalPinsUsed>
+    <Sensors>
+      <Sensor Name="Wheel0" ChannelNumber="0" SNS="PD2" SNSK="PD3" />
+      <Sensor Name="Wheel0" ChannelNumber="1" SNS="PD4" SNSK="PD5" />
+      <Sensor Name="Wheel0" ChannelNumber="2" SNS="PD6" SNSK="PD7" />
+    </Sensors>
+  </PinConfiguration>
+  <LibraryInformation ToolChainName="GCC">
+    <DefaultLibrary>libavr4g1-4qt-k-1rs.a</DefaultLibrary>
+  </LibraryInformation>
+  <MemoryInformation>
+    <DataMemory>
+      <TotalDataMemory>1024</TotalDataMemory>
+      <DataMemoryUsed>99</DataMemoryUsed>
+      <DataMemoryFree>925</DataMemoryFree>
+    </DataMemory>
+    <CodeMemory>
+      <TotalCodeMemory>8192</TotalCodeMemory>
+      <CodeMemoryUsed>4130</CodeMemoryUsed>
+      <CodeMemoryFree>4062</CodeMemoryFree>
+    </CodeMemory>
+  </MemoryInformation>
+  <OtherOptions>
+    <DelayCycle>1</DelayCycle>
+    <PowerOptimization>Disable</PowerOptimization>
+  </OtherOptions>
+  <ComponentID>qtlib.generic.tmx.qt.avr4g1</ComponentID>
+</SUMMARY>
