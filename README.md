@@ -16,4 +16,4 @@ As we all used to conventional light switches, moving switch up to down for turn
 Instead of simple ON/OFF touch spotes (that are hard to find each time you want to turn a light on or off) that used on most of smart switches, I tried to make **easy gestures** just same as everybody used to, so used 4 IR sensors to detect *hand movement* infront of the touch plate.
 in this picture you can see what Touch+Touchless sensors working in my invented Smart Switch
 
-![Touch+Toucless interface](https://github.com/Behn4m/TouchUI/blob/master/SmartSwitch.png)
+[Touch+Toucless interface](https://github.com/Behn4m/TouchUI/blob/master/SmartSwitch.png)
