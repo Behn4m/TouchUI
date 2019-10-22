@@ -2,7 +2,7 @@
 
 OK, it's an old project I used tou create a Touch+Toucless User Interface for controlling multichannle Light Switch. 
 The original part included a *ZigBee CC2538 TI chip* managing to receive and send commands from nodes. It using UART to interface with Touch pannel.
-The touc pannel that is also touchless pannel included a Atmel QTouch ring that controlled with **bold** ATMega88 and 4 IR sensors for touchless interface.
+The touc pannel that is also touchless pannel included a Atmel QTouch ring that controlled with *ATMega88* and 4 IR sensors for touchless interface.
 ## Touch Interface
 **QTouch** is wellknown and you can find more information about it in this link: https://www.microchip.com/mplab/avr-support/qtouch-tools
 
