@@ -14,3 +14,5 @@ I said 4 sensor, lets talk about gestures I needed to detect and algorithm I use
 As we all used to conventional light switches, moving switch up to down for turning light ON and viceversa for turning OFF.
 Instead of simple ON/OFF touch circles that used on most of smart switches, I tried to make gestures just same as everybody used to, so used 4 IR sensors to detect hand movement infront of the touch plate.
 in this picture you can see what Touch+Touchless sensors working in my invented Smart Switch
+
+![Touch+Toucless interface](https://github.com/Behn4m/TouchUI/blob/master/SmartSwitch.png)
